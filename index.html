@@ -13,14 +13,25 @@
         <ul type="none">
           <li>
             <a href="index.html">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact Us</a>
+            <a href="services.html">Services</a>
+            <a href="projects">Projects</a>
+            <a href="contact">Contact Us</a>
           </li>
         </ul>
+        <section>
+          <img src="image/searchmagnifiericon.svg" alt="searchicon" />
+          <form action="">
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Search here"
+            />
+          </form>
+        </section>
       </nav>
     </header>
-    <footer>
+    <main>
       <section>
         <h1>MOONWEB COMPANY</h1>
         <h6>Empowering your business and web identity.</h6>
@@ -55,7 +66,7 @@
           <tbody>
             <tr>
               <td>
-                <ul type="none">
+                <ul>
                   <li>2 Stock Images</li>
                   <li>3 Page Website</li>
                   <li>1 jQuery Slider Banner</li>
@@ -69,7 +80,7 @@
                 </ul>
               </td>
               <td>
-                <ul type="none">
+                <ul>
                   <li>3 Banner Design</li>
                   <li>1 jQuery Slider Banner</li>
                   <li>FREE Google Friendly Sitemap</li>
@@ -82,7 +93,7 @@
                 </ul>
               </td>
               <td>
-                <ul type="none">
+                <ul>
                   <li>10 Unique Pages Website</li>
                   <li>CMS / Admin Panel Support</li>
                   <li>8 Stock images</li>
@@ -107,33 +118,58 @@
         </table>
       </section>
       <section>
-        <h4>contact</h4>
+        <h4>Get Free Consultancy</h4>
         <form>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            value="name"
-            placeholder="Your Name"
-          />
+          <label for="name">First Name</label>
+          <input type="text" name="name" id="name" placeholder="First Name" />
+          <label for="email">Your Email</label>
           <input
             type="email"
-            name="Email"
-            id="Email"
-            value="Email"
-            placeholder="Your Email"
+            name="email"
+            id="email"
+            placeholder="example:moonwebco@gmail.com"
           />
+          <label for="nomber">Phone Nomber</label>
+          <input
+            type="number"
+            name="nomber"
+            id="nomber"
+            placeholder="Phone Nomber"
+          />
+
+          <label for="message">Your Message</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="60"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+          <p>Which service think you need?</p>
+          <input type="checkbox" name="seo" id="seo" />
+          <label for="seo">Seo</label>
+          <input type="checkbox" name="responsive" id="responsive" />
+          <label for="responsive"
+            >Add Responsive Fueature to your website</label
+          >
+          <input type="checkbox" name="persomal" id="persomal" />
+          <label for="persomal"
+            >Add new personal settings to your website</label
+          >
+          <input type="checkbox" name="security" id="security" />
+          <label for="security">security cover</label>
           <button>submit</button>
         </form>
       </section>
-    </footer>
+    </main>
     <footer>
       <section>
-        <img src="" alt="logo" />
+        <img src="image/logo.svg" alt="logo" />
         <h4>MOONWEB</h4>
         <a href=""><img src="image/instagramicon.svg" alt="Instagram" /></a>
         <a href=""><img src="image/facebookicon.svg" alt="Facebook" /></a>
         <a href=""><img src="image/githubicon.svg" alt="Git Hub" /></a>
+        <a href=""><img src="image/linkdinicon.svg" alt="Linkdin" /></a>
       </section>
       <section>
         <ul type="none">
@@ -152,7 +188,7 @@
           <h6>Contact Us</h6>
         </a>
         <p>Dr. Fort Collins, CO 80526</p>
-        <a href="mail.google.com">moonwebco@gmail.com</a>
+        <a href="mailto:moonwebco@gmail.com">moonwebco@gmail.com</a>
         <p>Copyright © 2022 by MoonWeb. All rights reserved.</p>
       </section>
     </footer>
